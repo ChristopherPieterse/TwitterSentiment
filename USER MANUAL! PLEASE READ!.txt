@@ -1,0 +1,14 @@
+To satisfy the upload size requirements, one of the core libraries used in this program has been excluded.
+To download this library go here: https://stanfordnlp.github.io/CoreNLP/ and use the download button.
+Once downloaded, extract and add the following files, if they are not there, to this projects lib folder:
+ejml-xxx.jar
+stanford-core-nlp-xxx.jar
+stanford-core-nlp-xxx-models.jar
+Where xxx is the version number. Once you've added these to the lib folder, right click on the project and go to
+properties. Once in properties navigate to Java Build Path, go to the libraries tab and click on add jars. Select
+whichever of the above libraries that weren't there and add them.
+
+Once all this is complete the code should work properly.
+
+Make sure you use a search term that is fairly niche and unique since the free version of this api doesn't allow that
+many lookups. I suggest using "leona"
